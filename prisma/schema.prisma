@@ -1,0 +1,94 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Founder {
+  id                    String                @id @default(cuid())
+  createdAt             DateTime              @default(now())
+  updatedAt             DateTime              @updatedAt
+  
+  // Structural Data
+  name                  String
+  age                   Int
+  educationLevel        String                // e.g., "PhD", "Dropout", "MBA"
+  yearsExperience       Int
+  isSoloFounder         Boolean
+  previousExits         Int                   @default(0)
+  capitalRaisedToDate   Float                 @default(0.0)
+  
+  // Relations
+  psychProfile          PsychologicalProfile?
+  startup               Startup?
+  pastFailures          FailurePattern[]
+  outcomes              Outcome[]
+}
+
+model PsychologicalProfile {
+  id                    String   @id @default(cuid())
+  founderId             String   @unique
+  founder               Founder  @relation(fields: [founderId], references: [id])
+
+  // Big Five Traits (0.0 to 1.0)
+  openness              Float
+  conscientiousness     Float
+  extraversion          Float
+  agreeableness         Float
+  neuroticism           Float
+
+  // Behavioral Parameters
+  riskTolerance         Float    // 0 = Risk Averse, 1 = Hyper-aggressive
+  delayDiscounting      Float    // Measure of patience/future-reward valuation
+  stressCapacity        Float    // Resilience score
+  locusOfControl        Float    // External vs Internal
+}
+
+model Startup {
+  id                    String   @id @default(cuid())
+  founderId             String   @unique
+  founder               Founder  @relation(fields: [founderId], references: [id])
+  
+  name                  String
+  marketSector          String   // e.g., "SaaS", "Fintech", "BioTech"
+  currentBurnRate       Float
+  runwayMonths          Int
+  totalAdressableMarket Float    // In USD
+}
+
+model FailurePattern {
+  id                    String   @id @default(cuid())
+  founderId             String
+  founder               Founder  @relation(fields: [founderId], references: [id])
+  
+  description           String
+  failureType           String   // e.g., "Co-founder Conflict", "Market-Product Mismatch"
+  intensity             Int      // 1-10
+}
+
+model Outcome {
+  id                    String   @id @default(cuid())
+  founderId             String
+  founder               Founder  @relation(fields: [founderId], references: [id])
+  
+  metricType            OutcomeMetric
+  dateAchieved          DateTime
+  value                 Float?   // Optional quantitative value
+  isSuccess             Boolean
+}
+
+enum OutcomeMetric {
+  SERIES_A_RAISED
+  ONE_MILLION_ARR
+  EXIT_ACQUISITION
+  EXIT_IPO
+  BURNOUT_DISSOLUTION
+  CASH_DEPLETION
+  PIVOT_FAILURE
+}
