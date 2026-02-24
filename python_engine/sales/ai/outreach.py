@@ -4,7 +4,26 @@ from openai import OpenAI
 from pydantic import BaseModel, Field
 
 # Initialize Instructor
-client = instructor.patch(OpenAI(api_key=os.getenv("OPENAI_API_KEY", "mock_key")))
+gemini_key = os.getenv("GEMINI_API_KEY")
+openai_key = os.getenv("OPENAI_API_KEY")
+
+if gemini_key and gemini_key != "mock_key":
+    print(f"INFO: Initializing RainmakerAI with Gemini (Key: {gemini_key[:8]}...)")
+    api_key = gemini_key
+    base_url = "https://generativelanguage.googleapis.com/v1beta/openai/"
+    model_name = "gemini-1.5-flash"
+elif openai_key and openai_key != "mock_key":
+    print(f"INFO: Initializing RainmakerAI with OpenAI (Key: {openai_key[:8]}...)")
+    api_key = openai_key
+    base_url = None
+    model_name = "gpt-4-turbo-preview"
+else:
+    print("WARNING: No valid AI key found. Using mock_key (EXPECT 401).")
+    api_key = "mock_key"
+    base_url = None
+    model_name = "gpt-4-turbo-preview"
+
+client = instructor.patch(OpenAI(api_key=api_key, base_url=base_url))
 
 class OutreachEmail(BaseModel):
     subject: str = Field(..., description="2-3 words, all lowercase")
@@ -38,7 +57,7 @@ class RainmakerAI:
         
         try:
             email = client.chat.completions.create(
-                model="gpt-4-turbo-preview",
+                model=model_name,
                 response_model=OutreachEmail,
                 messages=[
                     {"role": "system", "content": RainmakerAI.SYSTEM_PROMPT},
