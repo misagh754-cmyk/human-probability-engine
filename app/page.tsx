@@ -50,11 +50,24 @@ export default function Home() {
     };
 
     const handleUnlock = async () => {
-        // Stripe Checkout Trigger
-        const res = await fetch('/api/checkout', { method: 'POST' });
-        const { id } = await res.json();
-        // Redirect logic would go here
-        setIsUnlocked(true); // Immediate unlock for demo
+        setLoading(true);
+        try {
+            const res = await fetch('/api/checkout', { method: 'POST' });
+            const { url, error } = await res.json();
+
+            if (error) {
+                alert(`Checkout Error: ${error}`);
+                return;
+            }
+
+            if (url) {
+                window.location.href = url;
+            }
+        } catch (err) {
+            console.error("Stripe Redirect Failed:", err);
+        } finally {
+            setLoading(false);
+        }
     };
 
     return (

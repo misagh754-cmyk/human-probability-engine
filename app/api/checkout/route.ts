@@ -27,7 +27,7 @@ export async function POST() {
             cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/dashboard?canceled=true`,
         });
 
-        return NextResponse.json({ id: session.id });
+        return NextResponse.json({ url: session.url });
     } catch (err: any) {
         return NextResponse.json({ error: err.message }, { status: 500 });
     }
