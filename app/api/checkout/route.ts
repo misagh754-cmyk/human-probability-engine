@@ -1,21 +1,19 @@
-import Stripe from 'stripe';
 import { NextResponse } from 'next/server';
-
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-    apiVersion: '2025-02-11-preview' as any,
-});
 
 export async function POST() {
     try {
+        // Ensure we have a valid absolute base URL
+        const baseUrl = (process.env.NEXT_PUBLIC_BASE_URL || 'https://human-probability-enginehuman.onrender.com').replace(/\/$/, '');
+
         const body = {
             price_amount: 99,
             price_currency: 'usd',
-            pay_currency: 'usdttrc20', // Default, user can change on gateway
+            pay_currency: 'usdttrc20',
             order_id: `HPE_${Date.now()}`,
             order_description: 'HPE Deep Analytics Pass',
-            success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/dashboard?success=true`,
-            cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/dashboard?canceled=true`,
-            is_fiat: true, // This enables the "Pay with Card" feature
+            success_url: `${baseUrl}/dashboard?success=true`,
+            cancel_url: `${baseUrl}/dashboard?canceled=true`,
+            is_fiat: true,
         };
 
         const response = await fetch('https://api.nowpayments.io/v1/payment', {
@@ -33,8 +31,10 @@ export async function POST() {
             return NextResponse.json({ url: data.invoice_url });
         }
 
-        throw new Error(data.message || 'Failed to create payment');
+        console.error('NOWPayments Error:', data);
+        throw new Error(data.message || 'Failed to create payment link');
     } catch (err: any) {
+        console.error('Checkout API Error:', err);
         return NextResponse.json({ error: err.message }, { status: 500 });
     }
 }
