@@ -11,7 +11,7 @@ if gemini_key and gemini_key != "mock_key":
     print(f"INFO: Initializing RainmakerAI with Gemini (Key: {gemini_key[:8]}...)")
     api_key = gemini_key
     base_url = "https://generativelanguage.googleapis.com/v1beta/openai/"
-    model_name = "gemini-2.0-flash"
+    model_name = "gemini-3.0-flash"
 elif openai_key and openai_key != "mock_key":
     print(f"INFO: Initializing RainmakerAI with OpenAI (Key: {openai_key[:8]}...)")
     api_key = openai_key
