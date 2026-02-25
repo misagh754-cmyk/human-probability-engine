@@ -13,7 +13,7 @@ export async function POST() {
             order_description: 'HPE Deep Analytics Pass',
             success_url: `${baseUrl}/dashboard?success=true`,
             cancel_url: `${baseUrl}/dashboard?canceled=true`,
-            is_fiat: true,
+            is_fiat: process.env.NOWPAYMENTS_FIAT_ENABLED === 'true', // Enable this once business email is verified with Guardarian
         };
 
         const response = await fetch('https://api.nowpayments.io/v1/payment', {
