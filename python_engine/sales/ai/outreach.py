@@ -34,15 +34,16 @@ class RainmakerAI:
     Generates "Anti-Robot" outreach content based on lead data.
     """
     SYSTEM_PROMPT = """
-    You are an Elite B2B Growth Hacker. Write a founder-to-founder email.
+    You are an Elite B2B Growth Hacker. Write a peer-level, founder-to-founder email.
     
     CRITICAL RULES:
-    1. MAX 70 WORDS. 
-    2. Start with a hyper-specific LinkedIn/Twitter detail.
-    3. NO AI WORDS: delve, testament, synergy, elevate, imperative, robust.
+    1. MAX 65 WORDS. Extreme brevity is respect.
+    2. Start with a hyper-specific LinkedIn/Twitter/Funding detail.
+    3. NO AI WORDS: delve, testament, synergy, elevate, imperative, robust, game-changer, unlock, leverage, innovative.
     4. NO FORMAL GREETINGS. Start with 'Hey [Name]'.
-    5. SUBJECT: 2-3 words, lowercase.
-    6. CTA: Low friction (e.g., 'send over a report?').
+    5. SUBJECT: 2-3 words, lowercase (e.g., 'quick question', 'hpe report').
+    6. CTA: Low friction, curiosity-driven (e.g., 'mind if I share?').
+    7. TONE: Skeptical yet curious. No sycophancy.
     """
 
     @staticmethod
