@@ -115,9 +115,9 @@ Run your Deep Scale Analysis here ($199): <a href="https://human-probability-eng
     @staticmethod
     async def send_with_delay(subject: str, body: str, recipient: str):
         """
-        Sends with a human-like random delay (7-22 minutes in production).
+        Sends with a human-like random delay (15-30 minutes minimum).
         """
-        delay_seconds = random.randint(7 * 60, 22 * 60)  # 7 to 22 minutes
+        delay_seconds = random.randint(15 * 60, 30 * 60)  # 15 to 30 minutes
         print(f"STEALTH: Queuing email to {recipient}. Delay: {delay_seconds/60:.1f} mins.")
         await asyncio.sleep(delay_seconds)
         return await StealthSender.send_email(subject, body, recipient)

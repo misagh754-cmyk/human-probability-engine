@@ -131,13 +131,7 @@ async def main():
     print(f"Gemini Key: {'SET' if os.getenv('GEMINI_API_KEY') else 'NOT SET'}")
     print("=" * 60)
 
-    # Step 1: Send test email to CEO
-    test_ok = await send_test_email()
-    if not test_ok:
-        print("CRITICAL: Test email failed. Check SMTP_PASS env var.")
-        print("Continuing to main loop anyway for log visibility...")
-
-    # Step 2: Load leads
+    # Step 1: Load leads
     leads = load_leads()
     if not leads:
         print("WARNING: No leads loaded. Waiting for leads.json to be populated.")
