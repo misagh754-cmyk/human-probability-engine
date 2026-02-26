@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build && cd python_engine && pip install -r requirements.txt || echo 'Skipping Python deps if missing'",
+    "start": "cd python_engine && python3 -m sales.rainmaker & next start",
     "lint": "next lint"
   },
   "dependencies": {
