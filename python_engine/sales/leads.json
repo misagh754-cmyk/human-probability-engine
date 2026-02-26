@@ -1,1 +1,62 @@
-[]
+[
+    {
+        "name": "Alfred",
+        "startup": "Listen Labs",
+        "email": "alfred@listenlabs.ai",
+        "hook": "Saw the $27M Series A via Sequoia. Your autonomous market research focus is a perfect fit for our simulation tech."
+    },
+    {
+        "name": "Rotem",
+        "startup": "Venice",
+        "email": "rotem@venice.ai",
+        "hook": "Congrats on the $25M Series A and the Venice rebrand. Identity security is a critical variable in our current engine."
+    },
+    {
+        "name": "Alex",
+        "startup": "OpenRouter",
+        "email": "alex@openrouter.ai",
+        "hook": "The $40M raise from a16z and Sequoia is massive. We are building a simulation engine that heavily relies on your LLM routing."
+    },
+    {
+        "name": "Amos",
+        "startup": "Swan AI",
+        "email": "amos@getswan.com",
+        "hook": "Obsessed with your work on the autonomous business model. We are running a parallel thesis on startup probability."
+    },
+    {
+        "name": "Dino",
+        "startup": "Saronic",
+        "email": "dino@saronic.com",
+        "hook": "The $600M Series C for Saronic is a historic milestone for maritime autonomous systems. Massive respect."
+    },
+    {
+        "name": "Fei-Fei",
+        "startup": "World Labs",
+        "email": "feifei@worldlabs.ai",
+        "hook": "The $1B raise for foundational 3D AI models is the frontier we monitor. I'd love to share our success probability benchmarks."
+    },
+    {
+        "name": "Mikhail",
+        "startup": "Anthropic",
+        "email": "mikhail@anthropic.com",
+        "hook": "The $30B Series G is a testament to the safety-first approach. We use Claude extensively for our engine's logic."
+    },
+    {
+        "name": "Arshia",
+        "startup": "Basis",
+        "email": "arshia@getbasis.ai",
+        "hook": "Unicorn status with the $100M Series B is incredible. Your AI agentic accounting is the bedrock of future scale."
+    },
+    {
+        "name": "Peter",
+        "startup": "Rillet",
+        "email": "peter@rillet.com",
+        "hook": "The $70M raise for AI enterprise finance is a huge validation of the sector. We are simulating scale for similar systems."
+    },
+    {
+        "name": "Mati",
+        "startup": "ElevenLabs",
+        "email": "mati@elevenlabs.io",
+        "hook": "The $11B valuation is visionary. We are exploring voice-first startup analysis and your tech is the gold standard."
+    }
+]
