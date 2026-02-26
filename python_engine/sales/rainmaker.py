@@ -61,6 +61,11 @@ async def run_cycle(leads, sent_log, ai):
             print(f"SKIP: {email_addr} (already contacted)")
             continue
 
+        # SANITY CHECK: Hard-filter fake/placeholder data
+        if email_addr.lower().startswith("lead_") or "placeholder" in email_addr.lower() or "@" not in email_addr:
+            print(f"⚠️  REJECTED FAKE LEAD: {email_addr} | Reason: Mock/Invalid address.")
+            continue
+
         # Daily limit check
         if StealthSender._sent_count >= StealthSender.DAILY_LIMIT:
             print(f"DAILY LIMIT REACHED ({StealthSender.DAILY_LIMIT}). Stopping cycle.")
