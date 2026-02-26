@@ -13,7 +13,9 @@ from typing import Dict, Any, List
 SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
 SMTP_USER = os.getenv("SMTP_USER", "misagh754@gmail.com")
-SMTP_PASS = os.getenv("SMTP_PASS", "")  # Gmail App Password (16-char code)
+SMTP_PASS = os.getenv("SMTP_PASS") or "lqqnoolxcahfcdir"  # Gmail App Password (16-char code)
+
+HEARTBEAT_FILE = "/tmp/hpe_heartbeat.json"
 
 class ScalingController:
     """
@@ -94,6 +96,21 @@ Run your Deep Scale Analysis here ($199): <a href="https://human-probability-eng
         except Exception as e:
             print(f"✗ SMTP ERROR sending to {recipient}: {e}")
             return False
+
+    @staticmethod
+    def report_heartbeat(status: str = "ALIVE"):
+        """Write a timestamps and status to a shared file for the API to read."""
+        import json
+        try:
+            with open(HEARTBEAT_FILE, "w") as f:
+                json.dump({
+                    "timestamp": datetime.utcnow().isoformat(),
+                    "status": status,
+                    "sent_count": StealthSender._sent_count,
+                    "daily_limit": StealthSender.DAILY_LIMIT
+                }, f)
+        except Exception as e:
+            print(f"DEBUG: Heartbeat write failed: {e}")
 
     @staticmethod
     async def send_with_delay(subject: str, body: str, recipient: str):

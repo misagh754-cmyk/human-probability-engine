@@ -160,8 +160,10 @@ async def main():
         sent_log = load_sent_log()
 
         if leads:
+            StealthSender.report_heartbeat("PROCESSING_QUEUE")
             await run_cycle(leads, sent_log, ai)
         else:
+            StealthSender.report_heartbeat("IDLE_NO_LEADS")
             print("No leads to process. Sleeping until next cycle.")
 
         print(f"\nSLEEPING {CYCLE_INTERVAL // 3600} HOURS UNTIL NEXT CYCLE...")
