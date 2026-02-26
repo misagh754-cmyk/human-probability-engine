@@ -1,4 +1,5 @@
 'use client';
+// DEPLOY_TRIGGER: 2026-02-26T10:30:00+01:00
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -226,5 +227,4 @@ export default function Home() {
             </footer>
         </div>
     );
-}
 }
