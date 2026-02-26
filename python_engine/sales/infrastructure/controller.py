@@ -8,14 +8,48 @@ from datetime import datetime
 from typing import Dict, Any, List
 
 # ── Gmail SMTP Configuration ──
-# ProtonMail free does NOT support SMTP. Using Gmail with App Password.
-# To generate: Google Account → Security → 2-Step Verification → App Passwords
 SMTP_HOST = os.getenv("SMTP_HOST", "smtp.gmail.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
-SMTP_USER = os.getenv("SMTP_USER", "misagh754@gmail.com")
-SMTP_PASS = os.getenv("SMTP_PASS") or "lqqnoolxcahfcdir"  # Gmail App Password (16-char code)
 
 HEARTBEAT_FILE = "/tmp/hpe_heartbeat.json"
+
+class CredentialPool:
+    """
+    Manages a pool of SMTP credentials for round-robin sending.
+    """
+    def __init__(self):
+        self.credentials = []
+        self._current_index = 0
+        self._load_credentials()
+
+    def _load_credentials(self):
+        # 1. Load from legacy single env vars
+        user = os.getenv("SMTP_USER", "misagh754@gmail.com")
+        password = os.getenv("SMTP_PASS") or "lqqnoolxcahfcdir"
+        if user and password:
+            self.credentials.append({"user": user, "pass": password})
+
+        # 2. Load from numbered env vars (SMTP_USER_1, SMTP_PASS_1, etc.)
+        for i in range(1, 22): # Support up to 21 accounts
+            u = os.getenv(f"SMTP_USER_{i}")
+            p = os.getenv(f"SMTP_PASS_{i}")
+            if u and p:
+                # Avoid duplicates if the same user is in SMTP_USER
+                if not any(c["user"] == u for c in self.credentials):
+                    self.credentials.append({"user": u, "pass": p})
+        
+        print(f"POOL: Loaded {len(self.credentials)} SMTP accounts.")
+
+    def get_next(self) -> Dict[str, str]:
+        if not self.credentials:
+            return None
+        cred = self.credentials[self._current_index]
+        self._current_index = (self._current_index + 1) % len(self.credentials)
+        return cred
+
+# Singleton instance for the engine
+CRED_POOL = CredentialPool()
+
 
 class ScalingController:
     """
@@ -44,34 +78,35 @@ class ScalingController:
 
 class StealthSender:
     """
-    Production SMTP sender via ProtonMail Bridge with human-like delays.
+    Production SMTP sender with round-robin support and human-like delays.
     """
     _sent_count = 0
-    DAILY_LIMIT = 40  # ProtonMail safe limit per account per day
+    DAILY_LIMIT = 40  # Per account limit
 
     @staticmethod
     async def send_email(subject: str, body: str, recipient: str, sender_name: str = "HPE Analytics") -> bool:
         """
-        Sends a real email via ProtonMail SMTP.
+        Sends an email using the next available credential from the pool.
         """
-        if not SMTP_PASS:
-            print(f"ERROR: SMTP_PASS not set. Cannot send email to {recipient}.")
+        cred = CRED_POOL.get_next()
+        if not cred:
+            print(f"ERROR: No SMTP credentials available in pool. Cannot send to {recipient}.")
             return False
 
-        if StealthSender._sent_count >= StealthSender.DAILY_LIMIT:
-            print(f"LIMIT: Daily send limit ({StealthSender.DAILY_LIMIT}) reached. Pausing until next cycle.")
+        # Per-account daily limit tracking could be added here, 
+        # but for now we use a global stealth count for the engine.
+        if StealthSender._sent_count >= (StealthSender.DAILY_LIMIT * len(CRED_POOL.credentials)):
+            print(f"LIMIT: Global daily send limit reached. Pausing.")
             return False
 
         msg = MIMEMultipart("alternative")
-        msg["From"] = f"{sender_name} <{SMTP_USER}>"
+        msg["From"] = f"{sender_name} <{cred['user']}>"
         msg["To"] = recipient
         msg["Subject"] = subject
-        msg["X-Mailer"] = ""  # Strip mailer header
+        msg["X-Mailer"] = "" 
 
-        # Plain text version
         msg.attach(MIMEText(body, "plain"))
 
-        # HTML version with minimal formatting
         html_body = f"""<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; color: #333; line-height: 1.6;">
 {body.replace(chr(10), '<br>')}
 <br><br>
@@ -87,14 +122,14 @@ Run your Deep Scale Analysis here ($199): <a href="https://human-probability-eng
                 hostname=SMTP_HOST,
                 port=SMTP_PORT,
                 start_tls=True,
-                username=SMTP_USER,
-                password=SMTP_PASS,
+                username=cred['user'],
+                password=cred['pass'],
             )
             StealthSender._sent_count += 1
-            print(f"✓ SENT [{StealthSender._sent_count}]: Email to {recipient} | Subject: {subject}")
+            print(f"✓ SENT [{StealthSender._sent_count}]: Email to {recipient} via {cred['user']}")
             return True
         except Exception as e:
-            print(f"✗ SMTP ERROR sending to {recipient}: {e}")
+            print(f"✗ SMTP ERROR using {cred['user']} for {recipient}: {e}")
             return False
 
     @staticmethod
@@ -107,7 +142,8 @@ Run your Deep Scale Analysis here ($199): <a href="https://human-probability-eng
                     "timestamp": datetime.utcnow().isoformat(),
                     "status": status,
                     "sent_count": StealthSender._sent_count,
-                    "daily_limit": StealthSender.DAILY_LIMIT
+                    "accounts_online": len(CRED_POOL.credentials),
+                    "daily_limit_combined": StealthSender.DAILY_LIMIT * len(CRED_POOL.credentials)
                 }, f)
         except Exception as e:
             print(f"DEBUG: Heartbeat write failed: {e}")
