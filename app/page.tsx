@@ -193,7 +193,7 @@ export default function Home() {
                                         )}
                                     </div>
 
-                                    <ScenarioTree data={prediction.scenario_tree} isLocked={!isUnlocked} />
+                                    <ScenarioTree data={prediction.scenario_tree} isLocked={!isUnlocked} onUnlock={handleUnlock} />
                                 </div>
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

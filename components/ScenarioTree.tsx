@@ -20,9 +20,10 @@ interface ScenarioTreeProps {
         edges: Edge[];
     };
     isLocked?: boolean;
+    onUnlock?: () => void;
 }
 
-export default function ScenarioTree({ data, isLocked = false }: ScenarioTreeProps) {
+export default function ScenarioTree({ data, isLocked = false, onUnlock }: ScenarioTreeProps) {
     return (
         <div className={`relative min-h-[400px] border border-cyan-500/20 p-6 overflow-hidden ${isLocked ? 'blur-md grayscale pointer-events-none' : ''}`}>
             <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:20px_20px]" />
@@ -38,7 +39,7 @@ export default function ScenarioTree({ data, isLocked = false }: ScenarioTreePro
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: i * 0.1 }}
                             className={`p-4 border ${node.type === 'root' ? 'border-cyan-500' :
-                                    node.type === 'terminal' ? 'border-rose-500' : 'border-purple-500'
+                                node.type === 'terminal' ? 'border-rose-500' : 'border-purple-500'
                                 } mission-control-panel min-w-[150px] text-center`}
                         >
                             <div className="text-[10px] opacity-50 mb-1">{node.type.toUpperCase()}</div>
@@ -70,8 +71,11 @@ export default function ScenarioTree({ data, isLocked = false }: ScenarioTreePro
                         <p className="text-sm text-gray-400 mb-6 font-mono">
                             The complete Scenario Tree and deep behavioral insights are restricted to premium subscribers.
                         </p>
-                        <button className="px-6 py-3 bg-cyan-500 text-black font-bold text-xs uppercase hover:bg-white transition-colors">
-                            Unlock Deep Analysis - $99
+                        <button
+                            onClick={onUnlock}
+                            className="px-6 py-3 bg-cyan-500 text-black font-bold text-xs uppercase hover:bg-white transition-colors"
+                        >
+                            Unlock Deep Analysis - $199
                         </button>
                     </div>
                 </div>
