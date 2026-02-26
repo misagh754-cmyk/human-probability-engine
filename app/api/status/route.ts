@@ -26,7 +26,8 @@ export async function GET() {
             engine_status: data.status,
             last_seen: data.timestamp,
             sent_count: data.sent_count,
-            daily_limit: data.daily_limit,
+            accounts_online: data.accounts_online || 1,
+            daily_limit_combined: data.daily_limit_combined || 40,
             pacing_minutes: Math.round(diffMinutes)
         });
     } catch (error: any) {
