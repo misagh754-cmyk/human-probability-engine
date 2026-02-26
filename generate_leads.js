@@ -15,15 +15,7 @@ const hooks = [
 
 const leads = [];
 
-// Always keep the CEO test at the top
-leads.push({
-    name: "CEO Test",
-    startup: "HPE Internal",
-    email: "misagh754@gmail.com",
-    hook: "Internal verification test — confirming the Rainmaker pipeline is live and firing."
-});
-
-for (let i = 0; i < 342; i++) {
+for (let i = 0; i < 1000; i++) {
     const name = firstNames[Math.floor(Math.random() * firstNames.length)];
     const startup = startupPrefixes[Math.floor(Math.random() * startupPrefixes.length)] + startupSuffixes[Math.floor(Math.random() * startupSuffixes.length)];
     const hook = hooks[Math.floor(Math.random() * hooks.length)];
