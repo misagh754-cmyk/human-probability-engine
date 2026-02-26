@@ -1,8 +1,2060 @@
 [
-    {
-        "name": "CEO Test",
-        "startup": "HPE Internal",
-        "email": "misagh754@gmail.com",
-        "hook": "Internal verification test — confirming the Rainmaker pipeline is live and firing."
-    }
+  {
+    "name": "CEO Test",
+    "startup": "HPE Internal",
+    "email": "misagh754@gmail.com",
+    "hook": "Internal verification test — confirming the Rainmaker pipeline is live and firing."
+  },
+  {
+    "name": "Alex",
+    "startup": "OmniTech",
+    "email": "lead_0_alex@omnitech.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Morgan",
+    "startup": "VertexTech",
+    "email": "lead_1_morgan@vertextech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Casey",
+    "startup": "MetaSystems",
+    "email": "lead_2_casey@metasystems.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Drew",
+    "startup": "CyberCloud",
+    "email": "lead_3_drew@cybercloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "SynthAI",
+    "email": "lead_4_sam@synthai.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Drew",
+    "startup": "OmniAI",
+    "email": "lead_5_drew@omniai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Taylor",
+    "startup": "NovaCloud",
+    "email": "lead_6_taylor@novacloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Drew",
+    "startup": "OmniTech",
+    "email": "lead_7_drew@omnitech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Riley",
+    "startup": "QuantumLogic",
+    "email": "lead_8_riley@quantumlogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Jordan",
+    "startup": "NovaNetworks",
+    "email": "lead_9_jordan@novanetworks.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Riley",
+    "startup": "QuantumLogic",
+    "email": "lead_10_riley@quantumlogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "AeroCloud",
+    "email": "lead_11_sam@aerocloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Avery",
+    "startup": "NexusAI",
+    "email": "lead_12_avery@nexusai.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Morgan",
+    "startup": "NexusCloud",
+    "email": "lead_13_morgan@nexuscloud.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Parker",
+    "startup": "CyberData",
+    "email": "lead_14_parker@cyberdata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Charlie",
+    "startup": "NexusLabs",
+    "email": "lead_15_charlie@nexuslabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Drew",
+    "startup": "CyberAI",
+    "email": "lead_16_drew@cyberai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Spencer",
+    "startup": "NovaLabs",
+    "email": "lead_17_spencer@novalabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Alex",
+    "startup": "CyberData",
+    "email": "lead_18_alex@cyberdata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Avery",
+    "startup": "SynthLogic",
+    "email": "lead_19_avery@synthlogic.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jordan",
+    "startup": "MetaTech",
+    "email": "lead_20_jordan@metatech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Blake",
+    "startup": "NovaAI",
+    "email": "lead_21_blake@novaai.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Blake",
+    "startup": "OmniLogic",
+    "email": "lead_22_blake@omnilogic.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Casey",
+    "startup": "MetaAI",
+    "email": "lead_23_casey@metaai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Drew",
+    "startup": "OmniLabs",
+    "email": "lead_24_drew@omnilabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Jordan",
+    "startup": "AeroCloud",
+    "email": "lead_25_jordan@aerocloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Jordan",
+    "startup": "MetaCloud",
+    "email": "lead_26_jordan@metacloud.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Charlie",
+    "startup": "OmniLogic",
+    "email": "lead_27_charlie@omnilogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Morgan",
+    "startup": "OmniLabs",
+    "email": "lead_28_morgan@omnilabs.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Alex",
+    "startup": "VertexTech",
+    "email": "lead_29_alex@vertextech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Alex",
+    "startup": "CyberNetworks",
+    "email": "lead_30_alex@cybernetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Charlie",
+    "startup": "QuantumData",
+    "email": "lead_31_charlie@quantumdata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Jamie",
+    "startup": "HyperNetworks",
+    "email": "lead_32_jamie@hypernetworks.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Blake",
+    "startup": "QuantumAI",
+    "email": "lead_33_blake@quantumai.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Sam",
+    "startup": "OmniSystems",
+    "email": "lead_34_sam@omnisystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Taylor",
+    "startup": "VertexLabs",
+    "email": "lead_35_taylor@vertexlabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Blake",
+    "startup": "HyperLabs",
+    "email": "lead_36_blake@hyperlabs.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Casey",
+    "startup": "SynthLogic",
+    "email": "lead_37_casey@synthlogic.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jamie",
+    "startup": "CyberAI",
+    "email": "lead_38_jamie@cyberai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jordan",
+    "startup": "AeroData",
+    "email": "lead_39_jordan@aerodata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "NovaCloud",
+    "email": "lead_40_sam@novacloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Taylor",
+    "startup": "MetaCloud",
+    "email": "lead_41_taylor@metacloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jordan",
+    "startup": "SynthLogic",
+    "email": "lead_42_jordan@synthlogic.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Sam",
+    "startup": "VertexAI",
+    "email": "lead_43_sam@vertexai.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Jamie",
+    "startup": "VertexData",
+    "email": "lead_44_jamie@vertexdata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jamie",
+    "startup": "SynthTech",
+    "email": "lead_45_jamie@synthtech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Sam",
+    "startup": "QuantumNetworks",
+    "email": "lead_46_sam@quantumnetworks.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Alex",
+    "startup": "MetaTech",
+    "email": "lead_47_alex@metatech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Spencer",
+    "startup": "NovaData",
+    "email": "lead_48_spencer@novadata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Riley",
+    "startup": "NovaNetworks",
+    "email": "lead_49_riley@novanetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jordan",
+    "startup": "HyperSystems",
+    "email": "lead_50_jordan@hypersystems.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Taylor",
+    "startup": "QuantumLabs",
+    "email": "lead_51_taylor@quantumlabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jamie",
+    "startup": "VertexLogic",
+    "email": "lead_52_jamie@vertexlogic.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Taylor",
+    "startup": "SynthAI",
+    "email": "lead_53_taylor@synthai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jordan",
+    "startup": "QuantumData",
+    "email": "lead_54_jordan@quantumdata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jordan",
+    "startup": "MetaSystems",
+    "email": "lead_55_jordan@metasystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Taylor",
+    "startup": "MetaLabs",
+    "email": "lead_56_taylor@metalabs.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Riley",
+    "startup": "CyberNetworks",
+    "email": "lead_57_riley@cybernetworks.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Taylor",
+    "startup": "NexusAI",
+    "email": "lead_58_taylor@nexusai.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Blake",
+    "startup": "MetaCloud",
+    "email": "lead_59_blake@metacloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Spencer",
+    "startup": "NexusAI",
+    "email": "lead_60_spencer@nexusai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Taylor",
+    "startup": "SynthNetworks",
+    "email": "lead_61_taylor@synthnetworks.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Blake",
+    "startup": "OmniLabs",
+    "email": "lead_62_blake@omnilabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Drew",
+    "startup": "SynthSystems",
+    "email": "lead_63_drew@synthsystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Blake",
+    "startup": "NexusData",
+    "email": "lead_64_blake@nexusdata.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jordan",
+    "startup": "AeroCloud",
+    "email": "lead_65_jordan@aerocloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Blake",
+    "startup": "VertexLabs",
+    "email": "lead_66_blake@vertexlabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Morgan",
+    "startup": "AeroLabs",
+    "email": "lead_67_morgan@aerolabs.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jordan",
+    "startup": "AeroSystems",
+    "email": "lead_68_jordan@aerosystems.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Parker",
+    "startup": "MetaTech",
+    "email": "lead_69_parker@metatech.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Taylor",
+    "startup": "CyberLabs",
+    "email": "lead_70_taylor@cyberlabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Avery",
+    "startup": "OmniTech",
+    "email": "lead_71_avery@omnitech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Avery",
+    "startup": "CyberLabs",
+    "email": "lead_72_avery@cyberlabs.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Parker",
+    "startup": "NovaLogic",
+    "email": "lead_73_parker@novalogic.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Spencer",
+    "startup": "AeroData",
+    "email": "lead_74_spencer@aerodata.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Riley",
+    "startup": "SynthSystems",
+    "email": "lead_75_riley@synthsystems.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Parker",
+    "startup": "QuantumLabs",
+    "email": "lead_76_parker@quantumlabs.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Drew",
+    "startup": "AeroLogic",
+    "email": "lead_77_drew@aerologic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Charlie",
+    "startup": "HyperTech",
+    "email": "lead_78_charlie@hypertech.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Parker",
+    "startup": "MetaCloud",
+    "email": "lead_79_parker@metacloud.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Taylor",
+    "startup": "NovaNetworks",
+    "email": "lead_80_taylor@novanetworks.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Riley",
+    "startup": "CyberSystems",
+    "email": "lead_81_riley@cybersystems.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "VertexLabs",
+    "email": "lead_82_sam@vertexlabs.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jordan",
+    "startup": "MetaTech",
+    "email": "lead_83_jordan@metatech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Taylor",
+    "startup": "HyperAI",
+    "email": "lead_84_taylor@hyperai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Sam",
+    "startup": "OmniSystems",
+    "email": "lead_85_sam@omnisystems.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "AeroAI",
+    "email": "lead_86_sam@aeroai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jamie",
+    "startup": "HyperNetworks",
+    "email": "lead_87_jamie@hypernetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jordan",
+    "startup": "NexusTech",
+    "email": "lead_88_jordan@nexustech.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Spencer",
+    "startup": "CyberSystems",
+    "email": "lead_89_spencer@cybersystems.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Parker",
+    "startup": "OmniTech",
+    "email": "lead_90_parker@omnitech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jordan",
+    "startup": "VertexLogic",
+    "email": "lead_91_jordan@vertexlogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Casey",
+    "startup": "VertexCloud",
+    "email": "lead_92_casey@vertexcloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Riley",
+    "startup": "AeroSystems",
+    "email": "lead_93_riley@aerosystems.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Jordan",
+    "startup": "OmniData",
+    "email": "lead_94_jordan@omnidata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jamie",
+    "startup": "NexusLogic",
+    "email": "lead_95_jamie@nexuslogic.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Casey",
+    "startup": "AeroAI",
+    "email": "lead_96_casey@aeroai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jamie",
+    "startup": "VertexCloud",
+    "email": "lead_97_jamie@vertexcloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Spencer",
+    "startup": "NexusTech",
+    "email": "lead_98_spencer@nexustech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Sam",
+    "startup": "OmniCloud",
+    "email": "lead_99_sam@omnicloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Morgan",
+    "startup": "NovaAI",
+    "email": "lead_100_morgan@novaai.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Avery",
+    "startup": "NexusLabs",
+    "email": "lead_101_avery@nexuslabs.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jamie",
+    "startup": "HyperLabs",
+    "email": "lead_102_jamie@hyperlabs.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Alex",
+    "startup": "CyberLogic",
+    "email": "lead_103_alex@cyberlogic.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Charlie",
+    "startup": "VertexSystems",
+    "email": "lead_104_charlie@vertexsystems.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jamie",
+    "startup": "AeroData",
+    "email": "lead_105_jamie@aerodata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Spencer",
+    "startup": "SynthData",
+    "email": "lead_106_spencer@synthdata.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Spencer",
+    "startup": "VertexTech",
+    "email": "lead_107_spencer@vertextech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Taylor",
+    "startup": "VertexData",
+    "email": "lead_108_taylor@vertexdata.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Avery",
+    "startup": "CyberCloud",
+    "email": "lead_109_avery@cybercloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Drew",
+    "startup": "OmniNetworks",
+    "email": "lead_110_drew@omninetworks.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Riley",
+    "startup": "NexusCloud",
+    "email": "lead_111_riley@nexuscloud.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jordan",
+    "startup": "OmniLabs",
+    "email": "lead_112_jordan@omnilabs.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Riley",
+    "startup": "OmniSystems",
+    "email": "lead_113_riley@omnisystems.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Taylor",
+    "startup": "VertexLogic",
+    "email": "lead_114_taylor@vertexlogic.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Casey",
+    "startup": "AeroData",
+    "email": "lead_115_casey@aerodata.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Charlie",
+    "startup": "HyperCloud",
+    "email": "lead_116_charlie@hypercloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Sam",
+    "startup": "SynthTech",
+    "email": "lead_117_sam@synthtech.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Alex",
+    "startup": "VertexData",
+    "email": "lead_118_alex@vertexdata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Riley",
+    "startup": "MetaLogic",
+    "email": "lead_119_riley@metalogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Taylor",
+    "startup": "HyperAI",
+    "email": "lead_120_taylor@hyperai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jordan",
+    "startup": "CyberCloud",
+    "email": "lead_121_jordan@cybercloud.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Casey",
+    "startup": "SynthLabs",
+    "email": "lead_122_casey@synthlabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Casey",
+    "startup": "MetaTech",
+    "email": "lead_123_casey@metatech.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Alex",
+    "startup": "QuantumLogic",
+    "email": "lead_124_alex@quantumlogic.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Taylor",
+    "startup": "QuantumLogic",
+    "email": "lead_125_taylor@quantumlogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Blake",
+    "startup": "MetaAI",
+    "email": "lead_126_blake@metaai.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Avery",
+    "startup": "VertexLogic",
+    "email": "lead_127_avery@vertexlogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Casey",
+    "startup": "OmniCloud",
+    "email": "lead_128_casey@omnicloud.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Sam",
+    "startup": "OmniData",
+    "email": "lead_129_sam@omnidata.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Avery",
+    "startup": "NovaAI",
+    "email": "lead_130_avery@novaai.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Parker",
+    "startup": "HyperLabs",
+    "email": "lead_131_parker@hyperlabs.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Sam",
+    "startup": "QuantumSystems",
+    "email": "lead_132_sam@quantumsystems.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Parker",
+    "startup": "NovaSystems",
+    "email": "lead_133_parker@novasystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Charlie",
+    "startup": "QuantumCloud",
+    "email": "lead_134_charlie@quantumcloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Taylor",
+    "startup": "NovaSystems",
+    "email": "lead_135_taylor@novasystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Parker",
+    "startup": "NexusAI",
+    "email": "lead_136_parker@nexusai.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Jamie",
+    "startup": "NovaTech",
+    "email": "lead_137_jamie@novatech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Spencer",
+    "startup": "QuantumLogic",
+    "email": "lead_138_spencer@quantumlogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Sam",
+    "startup": "QuantumAI",
+    "email": "lead_139_sam@quantumai.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Riley",
+    "startup": "MetaData",
+    "email": "lead_140_riley@metadata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Avery",
+    "startup": "MetaTech",
+    "email": "lead_141_avery@metatech.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Spencer",
+    "startup": "VertexSystems",
+    "email": "lead_142_spencer@vertexsystems.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Drew",
+    "startup": "HyperTech",
+    "email": "lead_143_drew@hypertech.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Avery",
+    "startup": "NovaCloud",
+    "email": "lead_144_avery@novacloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Blake",
+    "startup": "AeroAI",
+    "email": "lead_145_blake@aeroai.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Drew",
+    "startup": "CyberData",
+    "email": "lead_146_drew@cyberdata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Charlie",
+    "startup": "AeroSystems",
+    "email": "lead_147_charlie@aerosystems.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Charlie",
+    "startup": "OmniTech",
+    "email": "lead_148_charlie@omnitech.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Parker",
+    "startup": "QuantumLogic",
+    "email": "lead_149_parker@quantumlogic.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Avery",
+    "startup": "AeroLabs",
+    "email": "lead_150_avery@aerolabs.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Casey",
+    "startup": "NovaSystems",
+    "email": "lead_151_casey@novasystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Parker",
+    "startup": "OmniNetworks",
+    "email": "lead_152_parker@omninetworks.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Blake",
+    "startup": "CyberCloud",
+    "email": "lead_153_blake@cybercloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Morgan",
+    "startup": "MetaLabs",
+    "email": "lead_154_morgan@metalabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Blake",
+    "startup": "SynthTech",
+    "email": "lead_155_blake@synthtech.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jordan",
+    "startup": "SynthCloud",
+    "email": "lead_156_jordan@synthcloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Drew",
+    "startup": "NexusNetworks",
+    "email": "lead_157_drew@nexusnetworks.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Blake",
+    "startup": "AeroAI",
+    "email": "lead_158_blake@aeroai.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Jordan",
+    "startup": "HyperSystems",
+    "email": "lead_159_jordan@hypersystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Morgan",
+    "startup": "AeroSystems",
+    "email": "lead_160_morgan@aerosystems.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Sam",
+    "startup": "CyberAI",
+    "email": "lead_161_sam@cyberai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jamie",
+    "startup": "MetaTech",
+    "email": "lead_162_jamie@metatech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jamie",
+    "startup": "QuantumNetworks",
+    "email": "lead_163_jamie@quantumnetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Avery",
+    "startup": "NovaLogic",
+    "email": "lead_164_avery@novalogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Casey",
+    "startup": "QuantumNetworks",
+    "email": "lead_165_casey@quantumnetworks.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Morgan",
+    "startup": "CyberCloud",
+    "email": "lead_166_morgan@cybercloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "QuantumLogic",
+    "email": "lead_167_sam@quantumlogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Riley",
+    "startup": "OmniLogic",
+    "email": "lead_168_riley@omnilogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "NovaLabs",
+    "email": "lead_169_sam@novalabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Avery",
+    "startup": "NexusAI",
+    "email": "lead_170_avery@nexusai.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Riley",
+    "startup": "OmniLogic",
+    "email": "lead_171_riley@omnilogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Morgan",
+    "startup": "CyberTech",
+    "email": "lead_172_morgan@cybertech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Drew",
+    "startup": "MetaCloud",
+    "email": "lead_173_drew@metacloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Avery",
+    "startup": "MetaData",
+    "email": "lead_174_avery@metadata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Riley",
+    "startup": "SynthCloud",
+    "email": "lead_175_riley@synthcloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Taylor",
+    "startup": "QuantumTech",
+    "email": "lead_176_taylor@quantumtech.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "VertexLogic",
+    "email": "lead_177_sam@vertexlogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Jordan",
+    "startup": "QuantumAI",
+    "email": "lead_178_jordan@quantumai.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Casey",
+    "startup": "VertexLogic",
+    "email": "lead_179_casey@vertexlogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Morgan",
+    "startup": "OmniData",
+    "email": "lead_180_morgan@omnidata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Casey",
+    "startup": "CyberNetworks",
+    "email": "lead_181_casey@cybernetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Morgan",
+    "startup": "CyberTech",
+    "email": "lead_182_morgan@cybertech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Morgan",
+    "startup": "HyperLogic",
+    "email": "lead_183_morgan@hyperlogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Casey",
+    "startup": "MetaTech",
+    "email": "lead_184_casey@metatech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Blake",
+    "startup": "OmniTech",
+    "email": "lead_185_blake@omnitech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Avery",
+    "startup": "HyperTech",
+    "email": "lead_186_avery@hypertech.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Drew",
+    "startup": "HyperLogic",
+    "email": "lead_187_drew@hyperlogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Alex",
+    "startup": "QuantumSystems",
+    "email": "lead_188_alex@quantumsystems.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Parker",
+    "startup": "CyberCloud",
+    "email": "lead_189_parker@cybercloud.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Riley",
+    "startup": "SynthLabs",
+    "email": "lead_190_riley@synthlabs.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Avery",
+    "startup": "NovaNetworks",
+    "email": "lead_191_avery@novanetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Parker",
+    "startup": "VertexSystems",
+    "email": "lead_192_parker@vertexsystems.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Riley",
+    "startup": "OmniSystems",
+    "email": "lead_193_riley@omnisystems.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Taylor",
+    "startup": "AeroLogic",
+    "email": "lead_194_taylor@aerologic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Avery",
+    "startup": "HyperData",
+    "email": "lead_195_avery@hyperdata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Blake",
+    "startup": "OmniSystems",
+    "email": "lead_196_blake@omnisystems.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Taylor",
+    "startup": "MetaSystems",
+    "email": "lead_197_taylor@metasystems.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Avery",
+    "startup": "NovaData",
+    "email": "lead_198_avery@novadata.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Casey",
+    "startup": "HyperData",
+    "email": "lead_199_casey@hyperdata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Morgan",
+    "startup": "QuantumLogic",
+    "email": "lead_200_morgan@quantumlogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Taylor",
+    "startup": "VertexLogic",
+    "email": "lead_201_taylor@vertexlogic.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Avery",
+    "startup": "HyperAI",
+    "email": "lead_202_avery@hyperai.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Alex",
+    "startup": "HyperLabs",
+    "email": "lead_203_alex@hyperlabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Blake",
+    "startup": "NovaCloud",
+    "email": "lead_204_blake@novacloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Parker",
+    "startup": "MetaNetworks",
+    "email": "lead_205_parker@metanetworks.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Blake",
+    "startup": "OmniData",
+    "email": "lead_206_blake@omnidata.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Spencer",
+    "startup": "CyberNetworks",
+    "email": "lead_207_spencer@cybernetworks.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Avery",
+    "startup": "AeroCloud",
+    "email": "lead_208_avery@aerocloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Spencer",
+    "startup": "QuantumLogic",
+    "email": "lead_209_spencer@quantumlogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Morgan",
+    "startup": "NovaLabs",
+    "email": "lead_210_morgan@novalabs.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Sam",
+    "startup": "VertexAI",
+    "email": "lead_211_sam@vertexai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Avery",
+    "startup": "CyberLabs",
+    "email": "lead_212_avery@cyberlabs.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Morgan",
+    "startup": "OmniAI",
+    "email": "lead_213_morgan@omniai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Riley",
+    "startup": "AeroLogic",
+    "email": "lead_214_riley@aerologic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Avery",
+    "startup": "QuantumAI",
+    "email": "lead_215_avery@quantumai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Avery",
+    "startup": "VertexNetworks",
+    "email": "lead_216_avery@vertexnetworks.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Charlie",
+    "startup": "MetaAI",
+    "email": "lead_217_charlie@metaai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Casey",
+    "startup": "MetaTech",
+    "email": "lead_218_casey@metatech.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Alex",
+    "startup": "NovaLogic",
+    "email": "lead_219_alex@novalogic.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Alex",
+    "startup": "SynthData",
+    "email": "lead_220_alex@synthdata.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Riley",
+    "startup": "NovaCloud",
+    "email": "lead_221_riley@novacloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Morgan",
+    "startup": "HyperTech",
+    "email": "lead_222_morgan@hypertech.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Casey",
+    "startup": "CyberNetworks",
+    "email": "lead_223_casey@cybernetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Spencer",
+    "startup": "SynthLogic",
+    "email": "lead_224_spencer@synthlogic.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Blake",
+    "startup": "OmniLabs",
+    "email": "lead_225_blake@omnilabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Blake",
+    "startup": "VertexLabs",
+    "email": "lead_226_blake@vertexlabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Riley",
+    "startup": "OmniLabs",
+    "email": "lead_227_riley@omnilabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "CyberSystems",
+    "email": "lead_228_sam@cybersystems.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Casey",
+    "startup": "NovaNetworks",
+    "email": "lead_229_casey@novanetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Drew",
+    "startup": "CyberLabs",
+    "email": "lead_230_drew@cyberlabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jordan",
+    "startup": "NovaData",
+    "email": "lead_231_jordan@novadata.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Casey",
+    "startup": "AeroAI",
+    "email": "lead_232_casey@aeroai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Riley",
+    "startup": "VertexNetworks",
+    "email": "lead_233_riley@vertexnetworks.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Charlie",
+    "startup": "HyperCloud",
+    "email": "lead_234_charlie@hypercloud.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jordan",
+    "startup": "NovaLabs",
+    "email": "lead_235_jordan@novalabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Alex",
+    "startup": "QuantumLabs",
+    "email": "lead_236_alex@quantumlabs.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Blake",
+    "startup": "CyberAI",
+    "email": "lead_237_blake@cyberai.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Casey",
+    "startup": "AeroSystems",
+    "email": "lead_238_casey@aerosystems.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Alex",
+    "startup": "NexusLogic",
+    "email": "lead_239_alex@nexuslogic.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jamie",
+    "startup": "NovaLogic",
+    "email": "lead_240_jamie@novalogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Blake",
+    "startup": "HyperTech",
+    "email": "lead_241_blake@hypertech.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Riley",
+    "startup": "CyberCloud",
+    "email": "lead_242_riley@cybercloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Alex",
+    "startup": "QuantumLabs",
+    "email": "lead_243_alex@quantumlabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Parker",
+    "startup": "NovaSystems",
+    "email": "lead_244_parker@novasystems.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Drew",
+    "startup": "SynthTech",
+    "email": "lead_245_drew@synthtech.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Charlie",
+    "startup": "MetaData",
+    "email": "lead_246_charlie@metadata.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jordan",
+    "startup": "NexusData",
+    "email": "lead_247_jordan@nexusdata.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Parker",
+    "startup": "SynthCloud",
+    "email": "lead_248_parker@synthcloud.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Charlie",
+    "startup": "HyperCloud",
+    "email": "lead_249_charlie@hypercloud.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Taylor",
+    "startup": "AeroNetworks",
+    "email": "lead_250_taylor@aeronetworks.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Morgan",
+    "startup": "NexusCloud",
+    "email": "lead_251_morgan@nexuscloud.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Taylor",
+    "startup": "AeroAI",
+    "email": "lead_252_taylor@aeroai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Casey",
+    "startup": "CyberNetworks",
+    "email": "lead_253_casey@cybernetworks.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jamie",
+    "startup": "NovaTech",
+    "email": "lead_254_jamie@novatech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Casey",
+    "startup": "AeroNetworks",
+    "email": "lead_255_casey@aeronetworks.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Morgan",
+    "startup": "OmniNetworks",
+    "email": "lead_256_morgan@omninetworks.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Riley",
+    "startup": "VertexSystems",
+    "email": "lead_257_riley@vertexsystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Alex",
+    "startup": "CyberCloud",
+    "email": "lead_258_alex@cybercloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jordan",
+    "startup": "OmniLogic",
+    "email": "lead_259_jordan@omnilogic.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Parker",
+    "startup": "MetaData",
+    "email": "lead_260_parker@metadata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Jordan",
+    "startup": "SynthAI",
+    "email": "lead_261_jordan@synthai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Avery",
+    "startup": "SynthData",
+    "email": "lead_262_avery@synthdata.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Spencer",
+    "startup": "NexusNetworks",
+    "email": "lead_263_spencer@nexusnetworks.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Sam",
+    "startup": "SynthLogic",
+    "email": "lead_264_sam@synthlogic.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Charlie",
+    "startup": "NexusData",
+    "email": "lead_265_charlie@nexusdata.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jordan",
+    "startup": "CyberSystems",
+    "email": "lead_266_jordan@cybersystems.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Riley",
+    "startup": "CyberAI",
+    "email": "lead_267_riley@cyberai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Alex",
+    "startup": "CyberAI",
+    "email": "lead_268_alex@cyberai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Charlie",
+    "startup": "AeroData",
+    "email": "lead_269_charlie@aerodata.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Charlie",
+    "startup": "QuantumAI",
+    "email": "lead_270_charlie@quantumai.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Jamie",
+    "startup": "MetaCloud",
+    "email": "lead_271_jamie@metacloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Riley",
+    "startup": "OmniLogic",
+    "email": "lead_272_riley@omnilogic.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Sam",
+    "startup": "VertexCloud",
+    "email": "lead_273_sam@vertexcloud.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Drew",
+    "startup": "QuantumSystems",
+    "email": "lead_274_drew@quantumsystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Blake",
+    "startup": "OmniLabs",
+    "email": "lead_275_blake@omnilabs.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Blake",
+    "startup": "SynthNetworks",
+    "email": "lead_276_blake@synthnetworks.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jamie",
+    "startup": "HyperTech",
+    "email": "lead_277_jamie@hypertech.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Alex",
+    "startup": "AeroTech",
+    "email": "lead_278_alex@aerotech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Avery",
+    "startup": "NovaCloud",
+    "email": "lead_279_avery@novacloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Parker",
+    "startup": "VertexData",
+    "email": "lead_280_parker@vertexdata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Charlie",
+    "startup": "HyperCloud",
+    "email": "lead_281_charlie@hypercloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Drew",
+    "startup": "NovaLogic",
+    "email": "lead_282_drew@novalogic.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Sam",
+    "startup": "NovaSystems",
+    "email": "lead_283_sam@novasystems.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Drew",
+    "startup": "HyperTech",
+    "email": "lead_284_drew@hypertech.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Blake",
+    "startup": "AeroSystems",
+    "email": "lead_285_blake@aerosystems.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Sam",
+    "startup": "CyberSystems",
+    "email": "lead_286_sam@cybersystems.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Taylor",
+    "startup": "VertexNetworks",
+    "email": "lead_287_taylor@vertexnetworks.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Drew",
+    "startup": "MetaCloud",
+    "email": "lead_288_drew@metacloud.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Parker",
+    "startup": "SynthData",
+    "email": "lead_289_parker@synthdata.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Taylor",
+    "startup": "VertexData",
+    "email": "lead_290_taylor@vertexdata.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Morgan",
+    "startup": "QuantumNetworks",
+    "email": "lead_291_morgan@quantumnetworks.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Taylor",
+    "startup": "AeroNetworks",
+    "email": "lead_292_taylor@aeronetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Avery",
+    "startup": "NexusLogic",
+    "email": "lead_293_avery@nexuslogic.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Charlie",
+    "startup": "OmniLabs",
+    "email": "lead_294_charlie@omnilabs.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Morgan",
+    "startup": "CyberSystems",
+    "email": "lead_295_morgan@cybersystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Blake",
+    "startup": "OmniLabs",
+    "email": "lead_296_blake@omnilabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Riley",
+    "startup": "VertexTech",
+    "email": "lead_297_riley@vertextech.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Riley",
+    "startup": "HyperSystems",
+    "email": "lead_298_riley@hypersystems.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jamie",
+    "startup": "QuantumCloud",
+    "email": "lead_299_jamie@quantumcloud.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Sam",
+    "startup": "OmniLabs",
+    "email": "lead_300_sam@omnilabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Casey",
+    "startup": "VertexNetworks",
+    "email": "lead_301_casey@vertexnetworks.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Drew",
+    "startup": "NexusTech",
+    "email": "lead_302_drew@nexustech.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Taylor",
+    "startup": "NovaLogic",
+    "email": "lead_303_taylor@novalogic.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Drew",
+    "startup": "NexusLabs",
+    "email": "lead_304_drew@nexuslabs.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Alex",
+    "startup": "SynthLogic",
+    "email": "lead_305_alex@synthlogic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Morgan",
+    "startup": "QuantumLabs",
+    "email": "lead_306_morgan@quantumlabs.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Spencer",
+    "startup": "VertexAI",
+    "email": "lead_307_spencer@vertexai.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Alex",
+    "startup": "NexusNetworks",
+    "email": "lead_308_alex@nexusnetworks.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Avery",
+    "startup": "NovaLabs",
+    "email": "lead_309_avery@novalabs.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Morgan",
+    "startup": "NovaSystems",
+    "email": "lead_310_morgan@novasystems.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Charlie",
+    "startup": "MetaAI",
+    "email": "lead_311_charlie@metaai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Spencer",
+    "startup": "AeroAI",
+    "email": "lead_312_spencer@aeroai.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Sam",
+    "startup": "VertexData",
+    "email": "lead_313_sam@vertexdata.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Sam",
+    "startup": "QuantumCloud",
+    "email": "lead_314_sam@quantumcloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Alex",
+    "startup": "NexusLabs",
+    "email": "lead_315_alex@nexuslabs.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jamie",
+    "startup": "QuantumData",
+    "email": "lead_316_jamie@quantumdata.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Spencer",
+    "startup": "NexusNetworks",
+    "email": "lead_317_spencer@nexusnetworks.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Jordan",
+    "startup": "VertexAI",
+    "email": "lead_318_jordan@vertexai.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Blake",
+    "startup": "CyberAI",
+    "email": "lead_319_blake@cyberai.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Jordan",
+    "startup": "HyperLogic",
+    "email": "lead_320_jordan@hyperlogic.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Sam",
+    "startup": "OmniSystems",
+    "email": "lead_321_sam@omnisystems.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Blake",
+    "startup": "QuantumLabs",
+    "email": "lead_322_blake@quantumlabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Riley",
+    "startup": "VertexCloud",
+    "email": "lead_323_riley@vertexcloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Casey",
+    "startup": "AeroLogic",
+    "email": "lead_324_casey@aerologic.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Avery",
+    "startup": "SynthCloud",
+    "email": "lead_325_avery@synthcloud.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Sam",
+    "startup": "NovaTech",
+    "email": "lead_326_sam@novatech.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Casey",
+    "startup": "AeroCloud",
+    "email": "lead_327_casey@aerocloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Casey",
+    "startup": "NexusTech",
+    "email": "lead_328_casey@nexustech.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Casey",
+    "startup": "SynthLogic",
+    "email": "lead_329_casey@synthlogic.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Spencer",
+    "startup": "NexusLabs",
+    "email": "lead_330_spencer@nexuslabs.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Parker",
+    "startup": "HyperLogic",
+    "email": "lead_331_parker@hyperlogic.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Sam",
+    "startup": "HyperNetworks",
+    "email": "lead_332_sam@hypernetworks.com",
+    "hook": "Impressive YoY growth metrics you shared recently."
+  },
+  {
+    "name": "Morgan",
+    "startup": "OmniAI",
+    "email": "lead_333_morgan@omniai.com",
+    "hook": "Noticed your product hunt launch last week. Great traction."
+  },
+  {
+    "name": "Jamie",
+    "startup": "NovaLabs",
+    "email": "lead_334_jamie@novalabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Taylor",
+    "startup": "SynthCloud",
+    "email": "lead_335_taylor@synthcloud.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Charlie",
+    "startup": "AeroLogic",
+    "email": "lead_336_charlie@aerologic.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  },
+  {
+    "name": "Drew",
+    "startup": "VertexAI",
+    "email": "lead_337_drew@vertexai.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Charlie",
+    "startup": "HyperAI",
+    "email": "lead_338_charlie@hyperai.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Jamie",
+    "startup": "NovaLabs",
+    "email": "lead_339_jamie@novalabs.com",
+    "hook": "Your recent pivot thesis on LinkedIn caught my eye."
+  },
+  {
+    "name": "Parker",
+    "startup": "HyperSystems",
+    "email": "lead_340_parker@hypersystems.com",
+    "hook": "Read your thoughts on seed raising on Twitter. Very insightful."
+  },
+  {
+    "name": "Riley",
+    "startup": "HyperNetworks",
+    "email": "lead_341_riley@hypernetworks.com",
+    "hook": "Saw your recent funding announcement. Huge milestone."
+  }
 ]

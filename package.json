@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "cd python_engine && python3 -m sales.rainmaker & next start",
+    "build": "npx prisma generate && next build && pip install -r python_engine/requirements.txt",
+    "start": "export PYTHONPATH=$PYTHONPATH:$(pwd)/python_engine && python3 -m sales.rainmaker & next start",
     "lint": "next lint"
   },
   "dependencies": {

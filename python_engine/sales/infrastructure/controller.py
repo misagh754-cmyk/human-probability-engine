@@ -73,7 +73,9 @@ class StealthSender:
         html_body = f"""<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; color: #333; line-height: 1.6;">
 {body.replace(chr(10), '<br>')}
 <br><br>
-<span style="color: #999; font-size: 11px;">Sent from HPE Analytics | <a href="https://human-probability-enginehuman.onrender.com" style="color: #0ea5e9;">humanprobability.ai</a></span>
+Run your Deep Scale Analysis here ($199): <a href="https://human-probability-enginehuman.onrender.com" style="color: #0ea5e9;">https://human-probability-enginehuman.onrender.com</a>
+<br><br>
+<span style="color: #999; font-size: 11px;">Sent from HPE Analytics</span>
 </div>"""
         msg.attach(MIMEText(html_body, "html"))
 
@@ -96,9 +98,9 @@ class StealthSender:
     @staticmethod
     async def send_with_delay(subject: str, body: str, recipient: str):
         """
-        Sends with a human-like random delay (2-8 minutes in production).
+        Sends with a human-like random delay (7-22 minutes in production).
         """
-        delay_seconds = random.randint(120, 480)  # 2 to 8 minutes
+        delay_seconds = random.randint(7 * 60, 22 * 60)  # 7 to 22 minutes
         print(f"STEALTH: Queuing email to {recipient}. Delay: {delay_seconds/60:.1f} mins.")
         await asyncio.sleep(delay_seconds)
         return await StealthSender.send_email(subject, body, recipient)
