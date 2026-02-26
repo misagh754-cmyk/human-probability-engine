@@ -30,9 +30,9 @@ Run your Deep Scale Analysis here ($199): <a href="${checkout_link}" style="colo
 </div>`
 };
 
-console.log("=" * 60);
+console.log("=".repeat(60));
 console.log("IGNITING FULL FIRE MODE: Dispatching CEO Verification Email...");
-console.log("=" * 60);
+console.log("=".repeat(60));
 
 transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
