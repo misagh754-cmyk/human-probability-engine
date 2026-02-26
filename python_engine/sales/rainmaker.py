@@ -15,8 +15,8 @@ from sales.infrastructure.controller import ScalingController, StealthSender
 from sales.ai.outreach import RainmakerAI
 
 
-LEADS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sales", "leads.json")
-SENT_LOG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sales", "sent_log.json")
+LEADS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "leads.json")
+SENT_LOG = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sent_log.json")
 CYCLE_INTERVAL = 86400  # 24 hours
 
 
