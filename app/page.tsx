@@ -188,7 +188,7 @@ export default function Home() {
                                                 onClick={handleUnlock}
                                                 className="px-4 py-2 border border-cyan-500 text-cyan-500 text-[10px] uppercase hover:bg-cyan-500 hover:text-black transition-all"
                                             >
-                                                Deep Scale Analysis ($99)
+                                                Deep Scale Analysis ($199)
                                             </button>
                                         )}
                                     </div>

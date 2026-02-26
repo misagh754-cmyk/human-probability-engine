@@ -6,7 +6,7 @@ export async function POST() {
         const baseUrl = (process.env.NEXT_PUBLIC_BASE_URL || 'https://human-probability-enginehuman.onrender.com').replace(/\/$/, '');
 
         const body = {
-            price_amount: 99,
+            price_amount: 199,
             price_currency: 'usd',
             pay_currency: 'usdttrc20',
             order_id: `HPE_${Date.now()}`,
@@ -16,7 +16,7 @@ export async function POST() {
             is_fiat: process.env.NOWPAYMENTS_FIAT_ENABLED === 'true', // Enable this once business email is verified with Guardarian
         };
 
-        const response = await fetch('https://api.nowpayments.io/v1/payment', {
+        const response = await fetch('https://api.nowpayments.io/v1/invoice', {
             method: 'POST',
             headers: {
                 'x-api-key': process.env.NOWPAYMENTS_API_KEY!,
