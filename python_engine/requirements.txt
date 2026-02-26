@@ -14,3 +14,4 @@ numpy
 pandas
 xgboost
 networkx
+aiosmtplib
