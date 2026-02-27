@@ -13,6 +13,7 @@ load_dotenv()
 
 from sales.infrastructure.controller import ScalingController, StealthSender
 from sales.ai.outreach import RainmakerAI
+from email_validator import validate_email, EmailNotValidError
 
 
 LEADS_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "leads.json")
@@ -61,9 +62,17 @@ async def run_cycle(leads, sent_log, ai):
             print(f"SKIP: {email_addr} (already contacted)")
             continue
 
-        # SANITY CHECK: Hard-filter fake/placeholder data
-        if email_addr.lower().startswith("lead_") or "placeholder" in email_addr.lower() or "@" not in email_addr:
-            print(f"⚠️  REJECTED FAKE LEAD: {email_addr} | Reason: Mock/Invalid address.")
+        # SANITY CHECK: Strict MX/Syntax Verification
+        try:
+            # check_deliverability=True performs DNS MX checks
+            valid = validate_email(email_addr, check_deliverability=True)
+            email_addr = valid.normalized
+        except EmailNotValidError as e:
+            print(f"⚠️ REJECTED {email_addr} | Invalid MX/Syntax: {str(e)}")
+            continue
+
+        if email_addr.lower().startswith("lead_") or "placeholder" in email_addr.lower():
+            print(f"⚠️  REJECTED FAKE LEAD: {email_addr} | Reason: Mock address.")
             continue
 
         # Daily limit check

@@ -4,3 +4,5 @@ python-dotenv
 instructor
 aiosmtplib
 asyncio
+email-validator
+dnspython

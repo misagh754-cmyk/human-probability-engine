@@ -82,6 +82,7 @@ class StealthSender:
     """
     _sent_count = 0
     DAILY_LIMIT = 40  # Per account limit
+    BLOCKED_DOMAINS = set()
 
     @staticmethod
     async def send_email(subject: str, body: str, recipient: str, sender_name: str = "HPE Analytics") -> bool:
@@ -91,6 +92,11 @@ class StealthSender:
         cred = CRED_POOL.get_next()
         if not cred:
             print(f"ERROR: No SMTP credentials available in pool. Cannot send to {recipient}.")
+            return False
+
+        domain = recipient.split('@')[-1] if '@' in recipient else ""
+        if domain in StealthSender.BLOCKED_DOMAINS:
+            print(f"🚫 BLOCKED: Skipping {recipient} because domain {domain} is blacklisted (Relay/Firewall block).")
             return False
 
         # Per-account daily limit tracking could be added here, 
@@ -129,7 +135,14 @@ Run your Deep Scale Analysis here ($199): <a href="https://human-probability-eng
             print(f"✓ SENT [{StealthSender._sent_count}]: Email to {recipient} via {cred['user']}")
             return True
         except Exception as e:
+            error_msg = str(e).lower()
             print(f"✗ SMTP ERROR using {cred['user']} for {recipient}: {e}")
+            
+            # Detect Relay blocks and hard bounces to protect reputation
+            if "relay access denied" in error_msg or "554 5.7.1" in error_msg or "550 5.1.1" in error_msg or "does not exist" in error_msg:
+                print(f"⚠️ SHIELD ACTIVATED: Blacklisting domain {domain} to prevent future bounces.")
+                StealthSender.BLOCKED_DOMAINS.add(domain)
+                
             return False
 
     @staticmethod
